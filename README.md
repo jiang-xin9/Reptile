@@ -9,13 +9,16 @@
 
 #### 安装教程
 
-1.  Pycharm、vscode、idea都可以。本系列示例都是Python版本是3.9.0
+1.  Pycharm、vscode、idea都可以。本系列示例都是Python3.9.0版本
 
 #### 所需要使用到的库
 
 1.  pip install beautifulsoup4
 2.  pip install lxml
 3.  pip install requests
+4.  pip install selenium
+
+如果下载慢则：pip install 模块包名 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 #### 参与贡献
 
