@@ -60,7 +60,7 @@ if __name__ == '__main__':
     threads = []
 
     url = r'https://www.fabiaoqing.com/biaoqing/lists/page/{}.html'
-    urls = [url.format(i) for i in range(5)]    # 想要爬取多少页range()就改成多少
+    urls = [url.format(i) for i in range(1,5)]    # 想要爬取多少页range()就改成多少
     headers = [{'User-Agent': random.choice(UA_LIST),'Referer': j} for j in urls]
     # for j in urls:
     #     header = {
