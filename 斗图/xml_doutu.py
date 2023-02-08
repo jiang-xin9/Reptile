@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import requests
 import random
 from lxml import etree
@@ -19,6 +21,8 @@ UA_LIST = [
 
 
 class REQUEST_IMG:
+
+    NUM = 0
 
     def run(self, url, headers):
         self.get_img(url, headers)
@@ -49,7 +53,8 @@ class REQUEST_IMG:
                     """以二进制保存"""
                     with open(path, 'wb') as pic:
                         pic.write(res.content)
-                    print("爬取成功~", urls)
+                        self.NUM += 1
+                    print("爬取成功~", urls,self.NUM)
                 except:
                     print("本张无法加载，PASS")
 
