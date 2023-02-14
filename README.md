@@ -26,3 +26,9 @@
 2.  微信：qing_an_an
 3.  公众号：测个der
 4.  CSDN：https://blog.csdn.net/weixin_52040868
+
+
+#### 斗图模块图片预览
+![输入图片说明](%E6%96%97%E5%9B%BE/image.png)
+![输入图片说明](%E6%96%97%E5%9B%BE/70b0f0009a80a70f622d82ee9db77a3.png)
+![输入图片说明](%E6%96%97%E5%9B%BE/image.png)
