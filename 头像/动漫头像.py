@@ -11,8 +11,8 @@ import time
 
 
 def get_img_url(headers):
-    for i in range(10):
-        if i == 0:
+    for i in range(1,11):
+        if i == 1:
             url = 'https://www.umei.cc/touxiangtupian/katongtouxiang'
         else:
             url = 'https://www.umei.cc/touxiangtupian/katongtouxiang/index_{}.htm'.format(i)
@@ -49,3 +49,4 @@ if __name__ == '__main__':
     with ThreadPoolExecutor(max_workers=10) as pool:
         pool.submit(get_img_url, headers)
     print("总耗时{} s".format(time.time() - s))
+
