@@ -32,18 +32,18 @@ def GET_ALL_BOOK_INFO(BOOK_NAME):
     for author, author_utl in zip(Author, Author_url):
         Book_chapter_dic[author] = author_utl
     try:
-        print("获取书籍信息：", Author[0], Author_url[0])
+        print("获取书籍信息：",BOOK_NAME, Book_chapter_dic[BOOK_NAME])
         for page in range(1, 26):
             if page == 1:
                 put_url = Book_chapter_dic[BOOK_NAME]
             else:
                 put_url = Book_chapter_dic[BOOK_NAME] + "/index_{}.html".format(page)
-            GET_BOOK(put_url, headers)
+            GET_BOOK(put_url, headers, BOOK_NAME)
     except:
         print("没有所需要的书籍！请查看玄幻小说人气排行中名称")
 
 
-def GET_BOOK(url, headers):
+def GET_BOOK(url, headers, BOOK_NAME):
     resquest = requests.get(url=url, headers=headers)
     resquest.encoding = 'gbk'
     Html = etree.HTML(resquest.text)
@@ -55,7 +55,7 @@ def GET_BOOK(url, headers):
     # 获取书籍目录信息
     Book_chapter_title = Html.xpath('//*[@class="zjbox"]/dl/dd/a/text()')
     for chapter, chapter_title in zip(Book_chapter, Book_chapter_title):
-        URL = Book_chapter_dic['圣墟'] + chapter
+        URL = Book_chapter_dic[BOOK_NAME] + chapter
         # print(URL, chapter_title)
         write(URL, headers, chapter_title)
 
@@ -66,7 +66,7 @@ def write(url, headers, title):
     BOOK = soup.find(id='content')
     # print(BOOK.text)
     with open(path + '/{}'.format(title) + '.txt', 'w',encoding='utf-8') as w:
-        w.write(BOOK.text.replace(' ','\r').strip('\r\n\t'))
+        w.write(BOOK.text.replace(' ','\r'))
     print("下载成功！{}".format(title))
 
 
