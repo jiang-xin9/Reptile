@@ -39,6 +39,8 @@
 
 [5、小小尝试斗图的快乐](https://mp.weixin.qq.com/s?__biz=MzkwODI1OTYwMg==&mid=2247486018&idx=1&sn=92947517a5ee80c39fcad94f84931b19&chksm=c0cdf23ff7ba7b290175dcbe12a6bd280aaebfb3e8f2a770b956e077ba378bfa279e78a1b1b2#rd)
 
+[6、获取京东图书](https://mp.weixin.qq.com/s?__biz=MzkwODI1OTYwMg==&mid=2247486003&idx=1&sn=6a7ce6893dfcf791fc2ca2d8e0839bdf&chksm=c0cdf24ef7ba7b587aa334c46230265e14a774f35fe43ccf7da36909dcc375dc18028857bce6#rd)
+
 #### 代码效果预览
 ![斗图](%E6%96%97%E5%9B%BE/image.png)
 ![壁纸](%E6%96%97%E5%9B%BE/1676362135588.jpg)
