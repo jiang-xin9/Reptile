@@ -27,6 +27,8 @@
 3.  公众号：测个der
 4.  CSDN：https://blog.csdn.net/weixin_52040868
 
+#### 对应文章
+[整个界面卡通情头文章](https://mp.weixin.qq.com/s?__biz=MzkwODI1OTYwMg==&mid=2247486306&idx=1&sn=5faa50a331f70591adddbc8cc2fa41c0&chksm=c0cdf31ff7ba7a094cdfc40dfe47f49182b96a67946de987cf40454efa57576d5c7399e67b12#rd)
 
 #### 斗图模块图片预览
 ![输入图片说明](%E6%96%97%E5%9B%BE/image.png)
