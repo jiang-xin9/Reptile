@@ -41,7 +41,9 @@
 
 [6、获取京东图书](https://mp.weixin.qq.com/s?__biz=MzkwODI1OTYwMg==&mid=2247486003&idx=1&sn=6a7ce6893dfcf791fc2ca2d8e0839bdf&chksm=c0cdf24ef7ba7b587aa334c46230265e14a774f35fe43ccf7da36909dcc375dc18028857bce6#rd)
 
-[7、单个电影获取](http://)
+[7、体验电影获取](https://mp.weixin.qq.com/s?__biz=MzkwODI1OTYwMg==&mid=2247486316&idx=1&sn=9a4b96b72e555ee566599f41a39769ab&chksm=c0cdf311f7ba7a0754a07666f18cf99968eea26e731df41f8b6343ce53df9f7a2a6041990fcc&token=2061897879&lang=zh_CN#rd)
+
+[8、修正ts合成顺序](https://mp.weixin.qq.com/s?__biz=MzkwODI1OTYwMg==&mid=2247486330&idx=1&sn=9270ee6eb9ddd4554d84c39e2ec66d02&chksm=c0cdf307f7ba7a1198d5162be18bf36c9f1de9c523e358821a0e9aad02a40d86664e87a34d73&token=2061897879&lang=zh_CN#rd)
 
 #### 代码效果预览
 ![斗图](%E6%96%97%E5%9B%BE/image.png)
