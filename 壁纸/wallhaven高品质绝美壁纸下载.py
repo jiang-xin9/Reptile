@@ -34,7 +34,7 @@ def run(value):
 
 
 if __name__ == '__main__':
-    list(map(url_, range(1, 2)))
+    list(map(url_, range(1, 24)))
     list(map(image, url_list))
     with ThreadPoolExecutor(max_workers=10) as pool:
         pool.map(run, img_list)
