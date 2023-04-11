@@ -32,6 +32,7 @@ def run(value):
         w.write(value_url.content)
         print("加载成功~",value)
 
+
 if __name__ == '__main__':
     list(map(url_, range(1, 2)))
     list(map(image, url_list))
